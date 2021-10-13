@@ -1,0 +1,4 @@
+.place__description {
+  border: 1px solid red;
+  grid-area: place__description;
+}

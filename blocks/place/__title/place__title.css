@@ -1,0 +1,11 @@
+.place__title {
+  border: 1px solid red;
+  grid-area: place__title;
+  color: #fff;
+  margin: 0;
+  padding: 0 0 8px 0; /* внутренний отступ заголовка снизу*/
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 76px;
+}

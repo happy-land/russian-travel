@@ -1,0 +1,11 @@
+.place {
+  border: 2px solid blue;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 152px 460px;
+  gap: 40px;
+  /* padding-bottom: 80px; */
+  grid-template-areas:
+  "place__title place__website"
+  "place__image place__description";
+}

@@ -1,0 +1,37 @@
+.lead__title {
+  border: 1px solid red;
+  color: #fff;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 32px;
+  padding: 0;
+  max-width: calc(100% - 132px*2);
+  font-style: normal;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 100px;
+}
+
+/* Разрешение экрана от 1024 до 1279px */
+@media screen and (max-width: 1279px) {
+  .lead__title {
+    max-width: calc(100% - 104px*2);
+  }
+}
+
+/* Разрешение экрана от 768 до 1023px */
+@media screen and (max-width: 1023px) {
+  .lead__title {
+    max-width: calc(100% - 24px*2);
+  }
+}
+
+/* Разрешение экрана от 320 до 767px */
+@media screen and (max-width: 767px) {
+  .lead__title {
+    margin-bottom: 16px;
+    max-width: calc(100% - 16px*2);
+    font-size: 40px;
+    line-height: 44px;
+  }
+}

@@ -1,0 +1,14 @@
+.header {
+  border: 1px solid red;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  max-width: calc(100% - 2*48px);
+}
+
+/* Разрешение экрана от 768 до 1023px */
+@media screen and (max-width: 1023px) {
+  .header {
+    max-width: calc(100% - 2*24px);
+  }
+}
