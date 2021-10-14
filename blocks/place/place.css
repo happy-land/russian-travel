@@ -2,10 +2,23 @@
   border: 2px solid blue;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: 152px 460px;
+  grid-template-rows: fit-content(152px) fit-content(460px);
   gap: 40px;
-  /* padding-bottom: 80px; */
   grid-template-areas:
   "place__title place__website"
   "place__image place__description";
+}
+
+@media screen and (max-width: 1279px) {
+  .place {
+    grid-template-rows: fit-content(152px) fit-content(440px);
+    gap: 32px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .place {
+    grid-template-rows: fit-content(92px) fit-content(440px);
+    gap: 28px;
+  }
 }
