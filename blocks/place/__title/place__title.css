@@ -1,5 +1,4 @@
 .place__title {
-  border: 1px solid red;
   grid-area: place__title;
   color: #fff;
   margin: 0;

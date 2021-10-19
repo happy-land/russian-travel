@@ -1,5 +1,5 @@
 .place {
-  border: 2px solid blue;
+  font-family: 'Inter', Arial, sans-serif;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: fit-content(152px) fit-content(460px);
