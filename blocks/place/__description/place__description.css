@@ -2,3 +2,10 @@
   border: 1px solid red;
   grid-area: place__description;
 }
+
+@media screen and (max-width: 767px) {
+  .place__description {
+    max-width: calc(100% - 16px*2);
+    margin: 0 auto;
+  }
+}

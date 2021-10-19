@@ -12,3 +12,10 @@
 .place__paragraph:last-of-type {
   margin: 0;
 }
+
+@media screen and (max-width: 1023px) {
+  .place__paragraph {
+    margin: 0 0 25px;
+    font-size: 16px;
+  }
+}
