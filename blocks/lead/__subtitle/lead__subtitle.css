@@ -15,6 +15,7 @@
 @media screen and (max-width: 1279px) {
   .lead__subtitle {
     max-width: calc(100% - 144px*2);
+    margin-bottom: 56px;
   }
 }
 
@@ -28,7 +29,7 @@
 /* Разрешение экрана от 320 до 767px */
 @media screen and (max-width: 767px) {
   .lead__subtitle {
-    margin-bottom: 16px;
+    margin-bottom: 40px;
     max-width: calc(100% - 16px*2);
     font-size: 16px;
     line-height: 20px;

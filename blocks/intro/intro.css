@@ -1,18 +1,26 @@
 .intro {
+  border: 1px solid red;
   font-family: 'Inter', Arial, sans-serif;
-  max-width: 690px;
+  /* max-width: 690px; */
+  width: calc(100% - 148px*2);
+  margin: 0 auto;
+  /* padding-right: 294px; */
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1279px) {
   .intro {
-    margin: 0 auto;
     max-width: calc(100% - 24px*2);
   }
 }
 
 @media screen and (max-width: 1023px) {
   .intro {
-    margin: 0 auto;
     max-width: calc(100% - 16px*2);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .intro {
+    width: calc(100% - 16px*2);
   }
 }
