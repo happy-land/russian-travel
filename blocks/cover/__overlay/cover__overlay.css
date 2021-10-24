@@ -4,12 +4,35 @@
   align-items: center;
   justify-content: center;
   text-decoration: none;
-  max-width: 1184px;
+  max-width: 100%;
+  max-height: 100%;
   min-height: 740px;
   transition: opacity .2s ease-out;
   background-image: url(../../../images/cover__background.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
   position: relative;
   z-index: 1;
+}
+
+@media screen and (max-width: 1279px) {
+  .cover__overlay {
+    max-height: 100%;
+    min-height: 640px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .cover__overlay {
+    min-height: 480px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .cover__overlay {
+    min-height: 200px;
+  }
 }
 
 .cover__overlay::before {
@@ -29,10 +52,3 @@
   background-color: rgba(42, 44, 47, 0.8);
   z-index: -1;
 }
-
-@media screen and (max-width: 767px) {
-  .cover__overlay {
-    min-height: 320px;
-  }
-}
-
